@@ -10,6 +10,7 @@ namespace BinaryTree
         static void Main(string[] args)
         {
             BSTDriver.driver();
+            Construction.driver();
             Console.ReadLine();
         }
     }
