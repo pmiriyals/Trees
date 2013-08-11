@@ -52,6 +52,29 @@ namespace BinaryTree
                 root = insert(root, data);
             }
         }
+
+        public void ConvertToMirror(Node node)
+        {
+            if (node == null)
+                return;
+
+            ConvertToMirror(node.left);
+            ConvertToMirror(node.right);
+
+            Node temp = node.left;
+            node.left = node.right;
+            node.right = temp;
+        }
+
+        public bool IsMirror(Node a, Node b)
+        {
+            if (a == null && b == null)
+                return true;
+            if (a != null && b != null)
+                return (a.data == b.data) && IsMirror(a.left, b.right) && IsMirror(a.right, b.left);
+            else
+                return false;
+        }
     }
 
     public class BSTDriver
@@ -60,7 +83,13 @@ namespace BinaryTree
         {
             BST tree = new BST();
             tree.buildTree();
-            Traversals.driver(tree);
+            BST mirror = new BST();
+            mirror.buildTree();
+            mirror.ConvertToMirror(mirror.root);
+            Traversals.levelorder(mirror);
+            Traversals.levelorder(tree);
+            Console.WriteLine("Ismirror = {0}", mirror.IsMirror(mirror.root, tree.root));
+            //Traversals.driver(tree);
         }
     }
 }

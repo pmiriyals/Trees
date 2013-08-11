@@ -1,0 +1,4 @@
+C:\Praneeth\C#\Amazon\TreesGraphsMatrix\TreesGraphsMatrix\bin\Debug\TreesGraphsMatrix.exe
+C:\Praneeth\C#\Amazon\TreesGraphsMatrix\TreesGraphsMatrix\bin\Debug\TreesGraphsMatrix.pdb
+C:\Praneeth\C#\Amazon\TreesGraphsMatrix\TreesGraphsMatrix\obj\x86\Debug\TreesGraphsMatrix.exe
+C:\Praneeth\C#\Amazon\TreesGraphsMatrix\TreesGraphsMatrix\obj\x86\Debug\TreesGraphsMatrix.pdb

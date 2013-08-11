@@ -6,3 +6,4 @@ C:\Praneeth\C#\Git\Trees\BinaryTree\BinaryTree\obj\x86\Debug\BinaryTree.exe
 C:\Praneeth\C#\Git\Trees\BinaryTree\BinaryTree\obj\x86\Debug\BinaryTree.pdb
 C:\Praneeth\C#\Git\Trees\BinaryTree\BinaryTree\bin\Debug\BinaryTree.exe
 C:\Praneeth\C#\Git\Trees\BinaryTree\BinaryTree\bin\Debug\BinaryTree.pdb
+C:\Praneeth\C#\Git\Trees\BinaryTree\BinaryTree\obj\x86\Debug\BinaryTree.csprojResolveAssemblyReference.cache
